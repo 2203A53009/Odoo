@@ -71,6 +71,24 @@ The **Skill Swap Platform** enables users to **offer** and **request** skills in
 
 ---
 
+# Clone repository
+git clone https://github.com/your-org/skill-swap-platform.git
+cd skill-swap-platform
+
+# Install dependencies
+npm install
+
+# Copy environment config
+cp .env.example .env.local
+# Add your MongoDB URI and JWT_SECRET inside .env.local
+
+# Seed database
+npm run seed
+
+# Start development server
+npm run dev
+
+
 ## 🧠 MongoDB Data Models
 
 ### Users (`users`)
