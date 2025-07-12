@@ -72,8 +72,7 @@ The **Skill Swap Platform** enables users to **offer** and **request** skills in
 ---
 
 # Clone repository
-git clone https://github.com/your-org/skill-swap-platform.git
-cd skill-swap-platform
+git clone 
 
 # Install dependencies
 npm install
